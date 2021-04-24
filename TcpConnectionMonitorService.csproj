@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>dotnet-TcpConnectionMonitorService-50064E7D-9997-4628-8E99-E094C5C0CD8F</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="5.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.EventLog" Version="5.0.0" />
+    <PackageReference Include="SharpPcap" Version="5.4.0" />
+  </ItemGroup>
+</Project>
